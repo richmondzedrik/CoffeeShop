@@ -623,65 +623,85 @@
     <!-- Footer -->
     <footer id="contact" class="footer">
         <div class="footer-container">
-            <div class="footer-left">
-                <h3>Caffeine</h3>
-                <div class="footer-info">
-                    <div class="contact-info">
-                        <h4>Contact Us</h4>
-                        <p>Email: info@caffeine.com<br>
-                        Phone: +1 (555) 123-4567<br>
-                        Address: 123 Coffee Street, Bean City</p>
-                        <button class="btn-map">Find Us</button>
-                    </div>
-
-                    <div class="social-info">
-                        <h4>Follow Us</h4>
-                        <div class="social-icons">
-                            <span class="social-icon facebook">
-                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                    <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
-                                </svg>
-                            </span>
-                            <span class="social-icon instagram">
-                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
-                                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
-                                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
-                                </svg>
-                            </span>
-                            <span class="social-icon twitter">
-                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                    <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
-                                </svg>
-                            </span>
-                            <span class="social-icon linkedin">
-                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
-                                    <rect x="2" y="9" width="4" height="12"></rect>
-                                    <circle cx="4" cy="4" r="2"></circle>
-                                </svg>
-                            </span>
-                        </div>
-                    </div>
+            <!-- Brand & Newsletter Section -->
+            <div class="footer-brand">
+                <div class="brand-header">
+                    <h3>Caffeine</h3>
+                    <p class="footer-description">Enjoy fresher and better Quality Coffee With Caffeine.</p>
                 </div>
-                <div class="newsletter-signup">
+
+                <div class="newsletter-section">
                     <h4>Newsletter</h4>
                     <p>Subscribe for 10% off your first order!</p>
                     <div class="newsletter-form">
-                        <input type="email" placeholder="Enter your email">
-                        <button class="btn-newsletter">Subscribe</button>
+                        <input type="email" placeholder="Enter your email" aria-label="Email address">
+                        <button class="btn-newsletter" type="button">Subscribe</button>
                     </div>
                 </div>
-                <p class="footer-description">Enjoy fresher and better Quality Coffee With Caffeine.</p>
             </div>
-            <div class="footer-right">
+
+            <!-- Contact & Social Section -->
+            <div class="footer-contact">
+                <div class="contact-info">
+                    <h4>Contact Us</h4>
+                    <div class="contact-details">
+                        <p class="contact-item">
+                            <span class="contact-label">Email:</span>
+                            <a href="mailto:info@caffeine.com">info@caffeine.com</a>
+                        </p>
+                        <p class="contact-item">
+                            <span class="contact-label">Phone:</span>
+                            <a href="tel:+15551234567">+1 (555) 123-4567</a>
+                        </p>
+                        <p class="contact-item">
+                            <span class="contact-label">Address:</span>
+                            123 Coffee Street, Bean City
+                        </p>
+                    </div>
+                    <button class="btn-map">Find Us</button>
+                </div>
+
+                <div class="social-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon facebook" aria-label="Follow us on Facebook">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-icon instagram" aria-label="Follow us on Instagram">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-icon twitter" aria-label="Follow us on Twitter">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-icon linkedin" aria-label="Follow us on LinkedIn">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                                <rect x="2" y="9" width="4" height="12"></rect>
+                                <circle cx="4" cy="4" r="2"></circle>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Visual Element Section -->
+            <div class="footer-visual">
                 <div class="footer-image">
-                    <img src="https://images.unsplash.com/photo-1447933601403-0c6688de566e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&h=300&q=80" alt="Coffee Beans" loading="lazy">
+                    <img src="CoffeeBeans.png" alt="Premium Coffee Beans" loading="lazy">
                 </div>
             </div>
         </div>
+
         <div class="footer-bottom">
-            <p>Copyright 2024 Caffeine Coffee | All Rights Reserved</p>
+            <p>&copy; 2024 Caffeine Coffee | All Rights Reserved</p>
         </div>
     </footer>
 
