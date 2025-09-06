@@ -2172,18 +2172,15 @@ p {
     height: auto;
     max-width: 280px;
     object-fit: contain;
-    border-radius: 16px;
+    border-radius: 0;
     border: none;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    box-shadow: none;
     background: transparent;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transition: none;
 }
 
 /* Visual Balance & Proportions */
-.footer-image img:hover {
-    transform: scale(1.02);
-    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
-}
+/* Removed hover animations for seamless integration */
 
 /* Improved Visual Balance */
 .footer-brand {
@@ -2291,9 +2288,9 @@ p {
 
 /* Performance Optimizations */
 .footer-image img {
-    filter: brightness(1.05) contrast(1.02);
-    opacity: 0.9;
-    will-change: transform;
+    filter: none;
+    opacity: 1;
+    will-change: auto;
 }
 
 /* Reduced Motion Support */
